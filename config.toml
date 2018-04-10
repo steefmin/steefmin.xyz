@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://test.steefmin.xyz"
 languageCode = "en-us"
 title = "Hugo Freelancer Theme"
 theme = "hugo-freelancer-theme"
@@ -12,8 +12,8 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Steef Min"
+    description = "Physicist - Scout - Coder"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -26,21 +26,21 @@ theme = "hugo-freelancer-theme"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "steefmin@gmail.com"
 
     # Custom assets
 	custom_css = []
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "Steef Min's Portfolio"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+        name = "Steef Min"
+        subtitle = "Physicist - Scout - Coder"
 
 
     [params.portfolio]
@@ -60,14 +60,16 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "Steef is a passionate worker who loves technology, the posibilities of the future and life in the present. A lover of quality code, Design of Experiments and the outdoors."
+        right = "Do you want to learn more about Steef’s qualifications or contact him? Hit one of the buttons below to take a look or send a message via the form below."
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "download"
-
+            text = "Professional activities"
+            link = "//www.linkedin.com/in/steefmin"
+            icon = "linkedin"
+            text2 = "Github activities"
+            link2 = "//www.github.com/steefmin"
+            icon2 = "github"
 
     [params.contact]
         title = "Contact"
@@ -99,7 +101,7 @@ theme = "hugo-freelancer-theme"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["Amersfoort, the Netherlands"]
 
         [params.footer.social]
             title = "Around the web"
@@ -108,11 +110,15 @@ theme = "hugo-freelancer-theme"
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "//github.com/steefmin"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                icon = "fa-twitter"
+                link=  "//www.twitter.com/steefmin"
+
+            [[params.footer.social.networks]]
+                icon = "fa-linkedin"
+                link=  "//www.linkedin.com/in/steefmin"
 
 
         [params.footer.credits]
