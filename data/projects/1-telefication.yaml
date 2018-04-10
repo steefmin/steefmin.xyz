@@ -1,8 +1,10 @@
 modalID: 1
 title: Test Engineer
 date: 2016-11-14 to now
-img: safe.png
+img: shield.png
 client: Kiwa Telefication
 clientLink: "//kiwatelefication.nl"
 category: Job
 description: Testing of Fire Security and Alarm system components for certification.
+
+flaticon: { site: "//www.flaticon.com/authors/vectors-market", name: Vectors Market }

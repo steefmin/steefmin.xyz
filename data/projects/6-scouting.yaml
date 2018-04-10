@@ -1,8 +1,10 @@
 modalID: 6
 title: Scouts
 date: 2012-01-01 to 2016-01-01
-img: cabin.png
+img: compass.png
 client: Scouting Victorie Heiloo
 clientLink: "//scoutingvictorie.nl"
 category: Scouting
 description: Teaching and entertaining kids from 11-18 years old to sail and work together as a team.
+
+flaticon: { site: "//www.freepik.com", name: Freepik }

@@ -1,8 +1,10 @@
 modalID: 4
 title: Design Engineering Internship
 date: 2014-07-01 to 2016-01-01
-img: game.png
+img: pressure.png
 client: Sensata Technologies
 clientLink: "//sensata.com"
 category: Internship
 description: Liquid temperature shock tests & Electric characterization of silicon strain gauge sensors for the automotive industry.
+
+flaticon: { site: "//www.flaticon.com/authors/vectors-market", name: Vectors Market }

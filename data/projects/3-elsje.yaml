@@ -1,8 +1,10 @@
 modalID: 3
 title: Elsje
 date: 2016-02-08 to now
-img: submarine.png
+img: robot.png
 client: Personal
 clientLink: "//www.github.com/steefmin/elsje"
 category: Slack-bot
 description: A slack bot that functions as a task managing assistant for our scouting group.
+
+flaticon: { site: "//www.freepik.com", name: Freepik }

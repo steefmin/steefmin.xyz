@@ -1,8 +1,10 @@
 modalID: 5
 title: Instant
 date: 2016-05-09 to 2017-05-12
-img: circus.png
+img: networking.png
 client: Personal
 clientLink: "//instant.steefmin.xyz"
 category: Web Development
 description: A peer-to-peer, in-browser, bittorrent over WebRTC file sharing site. <br> [instant.steefmin.xyz](//instant.steefmin.xyz)
+
+flaticon: { site: "//www.flaticon.com/authors/vectors-market", name: Vectors Market }

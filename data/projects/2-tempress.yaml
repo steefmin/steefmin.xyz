@@ -1,8 +1,10 @@
 modalID: 2
 title: Graduation Internship Software & Process
 date: 2016-03-01 to 2016-07-01
-img: cake.png
+img: line-chart.png
 client: Tempress Systems
 clientLink: "//tempress.nl"
 category: Internship
 description: Predictive maintenance methods of furnace systems for solarcell production.
+
+flaticon: { site: "//www.freepik.com", name: Freepik }
