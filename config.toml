@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://test.steefmin.xyz/"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "Steef Min's portfolio"
 theme = "hugo-freelancer-theme"
 
 
