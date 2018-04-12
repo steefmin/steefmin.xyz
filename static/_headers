@@ -1,11 +1,11 @@
 /favicon.png
-	Cache-control: public, max-age=432000
+	Cache-control: public, max-age=606060
 
 /img/*
-	Cache-control: public, max-age=432000
+	Cache-control: public, max-age=606060
 
 /js/*
-	Cache-control: public, max-age=432000
+	Cache-control: public, max-age=606060
 
 /css/*
-	Cache-control: public, max-age=432000
+	Cache-control: public, max-age=606060
