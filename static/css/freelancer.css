@@ -36,6 +36,7 @@ h6 {
     font-weight: 700;
 }
 
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -46,33 +47,12 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
 hr.star-light {
     border-color: #fff;
 }
 
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
 hr.star-primary {
     border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
 }
 
 .img-centered {

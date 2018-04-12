@@ -18,12 +18,12 @@
     <div class="row">
         <div class="col-lg-4 col-lg-offset-2 text-center">
             <a href="{{ with .Site.Params.about.button.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
-                <i class="fa fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}
+                <i class="fab fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}
             </a>
         </div>
         <div class="col-lg-4 text-center">
             <a href="{{ with .Site.Params.about.button.link2 }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
-                <i class="fa fa-{{ with .Site.Params.about.button.icon2 }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text2 }}{{ . }}{{ end }}
+                <i class="fab fa-{{ with .Site.Params.about.button.icon2 }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text2 }}{{ . }}{{ end }}
             </a>
         </div>
     </div>
