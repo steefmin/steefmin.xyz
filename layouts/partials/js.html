@@ -3,7 +3,7 @@
 <script async src="https://use.fontawesome.com/releases/v5.0.10/js/brands.js" integrity="sha384-6jhVhr5a+Z1nLr9h+fd7ocMEo847wnGFelCHddaOOACUeZNoQwFXTxh4ysXVam8u" crossorigin="anonymous"></script>
 <script async src="https://use.fontawesome.com/releases/v5.0.10/js/fontawesome.js" integrity="sha384-M2FSA4xMm1G9m4CNXM49UcDHeWcDZNucAlz1WVHxohug0Uw1K+IpUhp/Wjg0y6qG" crossorigin="anonymous"></script>
 {{ "<!-- jQuery -->" | safeHTML }}
-<script async src="{{ .Site.BaseURL }}js/jquery-1.11.js"></script>
+<script src="{{ .Site.BaseURL }}js/jquery-1.11.js"></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script async src="{{ .Site.BaseURL }}js/bootstrap.js"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
@@ -20,11 +20,6 @@
 <script async src="{{ . | absURL }}"></script>
 {{ end }}
 
-{{ "<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->" | safeHTML }}
-<link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
-{{ range .Site.Params.custom_css }}
-<link rel="stylesheet" href="{{ . | absURL }}">
-{{ end }}
 <link rel="icon" href="{{ .Site.BaseURL }}/favicon.png"> <!-- favicon made by Freepik (www.freepik.com) licenced by CC 3.0 BY -->
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
