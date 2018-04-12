@@ -192,7 +192,7 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
