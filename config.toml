@@ -59,17 +59,18 @@ theme = "hugo-freelancer-theme"
 
     [params.about]
         title = "About"
-        # The about text is splitted into a left and right column
-        left = "Steef is a passionate worker who loves technology, the posibilities of the future and life in the present. A lover of quality code, Design of Experiments and the outdoors."
-        right = "Do you want to learn more about Steef’s qualifications or contact him? Hit one of the buttons below to take a look or send a message via the form below."
 
-        [params.about.button]
+        [[params.about.button]]
+            long = "Steef is a passionate worker who loves technology, the posibilities of the future and life in the present. A lover of quality code, Design of Experiments and the outdoors."
             text = "Professional activities"
             link = "//www.linkedin.com/in/steefmin"
             icon = "linkedin"
-            text2 = "Github activities"
-            link2 = "//www.github.com/steefmin"
-            icon2 = "github"
+
+        [[params.about.button]]
+            long = "Do you want to learn more about Steef’s qualifications or contact him? Hit one of the buttons below to take a look or send a message via the form below."
+            text = "Github activities"
+            link = "//www.github.com/steefmin"
+            icon = "github"
 
     [params.contact]
         title = "Contact"
