@@ -1,0 +1,10 @@
+modalID: 7
+title: ipfs-chat
+date: 2018-10-01 to now
+img: chat.svg
+client: Personal
+clientLink: "//www.github.com/steefmin/ipfs-chat"
+category: Distributed-networks
+description: A tiny site that does peer-to-peer chat over the IPFS network, via pubsub.
+
+flaticon: { site: "https://www.flaticon.com/authors/vectors-market", name: Vectors Market }
