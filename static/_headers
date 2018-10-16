@@ -9,3 +9,4 @@
 
 /css/*
 	Cache-control: public, max-age=606060
+	Access-Control-Allow-Origin: https://fontawesome.io
