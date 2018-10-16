@@ -5,6 +5,6 @@ img: chat.svg
 client: Personal
 clientLink: "//www.github.com/steefmin/ipfs-chat"
 category: Distributed-networks
-description: A tiny site that does peer-to-peer chat over the IPFS network, via pubsub.
+description: A tiny site that does peer-to-peer chat over the IPFS network, via pubsub. \n https://github.com/steefmin/ipfs-chat
 
 flaticon: { site: "https://www.flaticon.com/authors/vectors-market", name: Vectors Market }
