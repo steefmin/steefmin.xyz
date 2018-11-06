@@ -6,15 +6,15 @@
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 {{ "<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->" | safeHTML }}
-<link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 {{ "<!-- Custom CSS -->" | safeHTML }}
 <link href="css/freelancer.css" rel="stylesheet">
 {{ range .Site.Params.custom_css }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
-<link rel="icon" href="{{ .Site.BaseURL }}/favicon.png"> <!-- favicon made by Freepik (www.freepik.com) licenced by CC 3.0 BY -->
+<link rel="icon" href="favicon.png"> <!-- favicon made by Freepik (www.freepik.com) licenced by CC 3.0 BY -->
 {{ "<!-- Custom Fonts -->" | safeHTML }}
-<link href="{{ .Site.BaseURL }}css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
