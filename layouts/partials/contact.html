@@ -42,6 +42,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
+		    <div netlify-recaptcha></div>
                     <br>
                     <div id="success"></div>
                     <div class="row">
@@ -49,7 +50,6 @@
                             <button type="submit" class="btn btn-success btn-lg">{{ with .Site.Params.contact.form.button.text }}{{.}}{{ end }}</button>
                         </div>
                     </div>
-		    <div netlify-recaptcha></div>
                 </form>
             </div>
         </div>
