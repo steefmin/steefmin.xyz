@@ -1,5 +1,6 @@
 /*
 	Access-Control-Allow-Origin: https://www.steefmin.xyz
+	Access-Control-Allow-Origin: https://steefmin.xyz
 
 /favicon.png
 	Cache-control: public, max-age=606060
