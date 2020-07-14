@@ -40,7 +40,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "profile-color.jpg"
         name = "Steef Min"
-        subtitle = "Physicist - Scout - Coder"
+        subtitle = "Analist - Scout - Developer"
 
 
     [params.portfolio]
