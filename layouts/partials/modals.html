@@ -28,7 +28,9 @@
                             </li>
                         </ul>
                         {{ with .flaticon}}
-                        <div style="font-size:10pt">Icon made by <a href="{{ .site }}">{{ .name }}</a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a> and is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a><br></div>
+                        <div style="font-size:10pt; padding: 10px;">
+                            Icon made by <a href="{{ .site }}">{{ .name }}</a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a> and is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                        </div>
                         {{ end }}
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
                     </div>
