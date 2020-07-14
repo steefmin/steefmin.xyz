@@ -122,6 +122,3 @@ theme = "hugo-freelancer-theme"
                 link=  "//www.linkedin.com/in/steefmin"
 
 
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
