@@ -97,7 +97,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+        copyright = "Powered by [Hugo](//gohugo.io)."
 
         [params.footer.location]
             title = "Location"
@@ -120,5 +120,3 @@ theme = "hugo-freelancer-theme"
             [[params.footer.social.networks]]
                 icon = "fa-linkedin"
                 link=  "//www.linkedin.com/in/steefmin"
-
-
