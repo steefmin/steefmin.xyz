@@ -5,6 +5,6 @@ img: gift.svg
 client: gift.steefminx.xyz
 clientLink: "//gift.steefmin.xyz"
 category: Single Page Application
-description: A tiny site that hosts my personal flagpole. In addition to that you can use it to send custome messages to your friends https://github.com/steefmin/flag
+description: A tiny site that allows you to write custom gift cards. Easily make personal gifts for your friends https://github.com/steefmin/cado
 
 flaticon: { site: "//www.freepik.com", name: Freepik }
