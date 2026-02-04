@@ -1,4 +1,3 @@
-# Site settings
 baseurl = "https://steefmin.xyz/"
 languageCode = "en-us"
 title = "Steef Min's portfolio"
