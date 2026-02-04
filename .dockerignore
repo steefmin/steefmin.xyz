@@ -17,6 +17,9 @@ resources/
 .netlify/
 netlify.toml
 
+# CI/CD
+.github/
+
 # Documentation
 README.md
 LICENSE

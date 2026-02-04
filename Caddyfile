@@ -6,6 +6,11 @@ log {
     level INFO
 }
 
+# Trust X-Forwarded-* headers from Traefik
+servers {
+    trusted_proxies static private_ranges
+}
+
 encode gzip zstd
 
 root * /usr/share/caddy
