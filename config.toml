@@ -102,7 +102,7 @@ theme = "hugo-freelancer-theme"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["Amersfoort, the Netherlands"]
+            address = ["Alkmaar, the Netherlands"]
 
         [params.footer.social]
             title = "Around the web"
