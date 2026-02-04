@@ -1,0 +1,33 @@
+# Build output (will be built inside container)
+public/
+resources/
+
+# Version control
+.git/
+.gitignore
+.gitmodules
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Netlify
+.netlify/
+netlify.toml
+
+# Documentation
+README.md
+LICENSE
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
