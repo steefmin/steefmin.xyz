@@ -122,5 +122,5 @@ theme = "hugo-freelancer-theme"
                 link=  "//www.linkedin.com/in/steefmin"
 
             [[params.footer.social.networks]]
-                icon = "fa-butterfly"
+                icon = "fa-feed"
                 link=  "//bsky.app/profile/steefmin.xyz"
