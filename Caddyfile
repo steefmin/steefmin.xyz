@@ -1,15 +1,17 @@
+{
+    log {
+        output stdout
+        format console
+        level INFO
+    }
+
+    # Trust X-Forwarded-* headers from Traefik
+    servers {
+        trusted_proxies static private_ranges
+    }
+}
+
 {$SITE_ADDRESS:localhost}
-
-log {
-    output stdout
-    format console
-    level INFO
-}
-
-# Trust X-Forwarded-* headers from Traefik
-servers {
-    trusted_proxies static private_ranges
-}
 
 encode gzip zstd
 
