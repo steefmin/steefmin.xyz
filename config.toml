@@ -120,3 +120,7 @@ theme = "hugo-freelancer-theme"
             [[params.footer.social.networks]]
                 icon = "fa-linkedin"
                 link=  "//www.linkedin.com/in/steefmin"
+
+            [[params.footer.social.networks]]
+                icon = "fa-bluesky"
+                link=  "//bsky.app/profile/steefmin.xyz"
