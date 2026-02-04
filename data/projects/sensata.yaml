@@ -7,4 +7,6 @@ clientLink: "//sensata.com"
 category: Internship
 description: Liquid temperature shock tests & Electric characterization of silicon strain gauge sensors for the automotive industry.
 
-flaticon: { site: "//www.flaticon.com/authors/vectors-market", name: Vectors Market }
+flaticon:
+  site: "//www.flaticon.com/authors/vectors-market"
+  name: Vectors Market
