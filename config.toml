@@ -1,5 +1,5 @@
 baseurl = "https://steefmin.xyz/"
-languageCode = "en-uk"
+languageCode = "en-us"
 title = "Steef Min's portfolio"
 theme = "hugo-freelancer-theme"
 
