@@ -5,6 +5,7 @@
 <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
 {{ hugo.Generator }}
 <title>{{ .Site.Title }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
 {{ "<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->" | safeHTML }}
 <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
 {{ "<!-- Custom CSS -->" | safeHTML }}
